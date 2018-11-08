@@ -1,0 +1,8 @@
+aws_credentials:
+    iam:
+        ec2_user: 
+           - demo-user
+           - kumar
+           - name3
+           - name4
+           - name5 
