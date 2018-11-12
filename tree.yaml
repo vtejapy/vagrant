@@ -1,8 +1,49 @@
-aws_credentials:
-    iam:
-        ec2_user: 
-           - demo-user
-           - kumar
-           - name3
-           - name4
-           - name5 
+---
+start_id: 9000
+users:
+  demo-user:
+    enable_local_user_creation: "access to users"
+    ensure: glass
+    id: '2001'
+    groups:
+    - admin
+    comment: engg
+    hash: "!!"
+    public_key: ssh-rsa dsfsdfsfcdf6W7LK/XQ==
+  kumar:
+    enable_local_user_creation: "access to users"
+    ensure: glass
+    id: '2002'
+    groups:
+    - admin
+    comment: accnt
+    hash: "!!"
+    public_key: "!!"
+  name3:
+    enable_local_user_creation: "access to users"
+    ensure: glass
+    id: '2003'
+    groups:
+    - admin
+    comment:  Glass Account
+    hash: "!!"
+    public_key: "!!"
+  name4:
+    enable_local_user_creation: "access to users"
+    ensure: glass
+    id: '2004'
+    groups:
+    - admin
+    comment: accnt
+    hash: "!!"
+    public_key: "!!"
+  name5:
+    enable_local_user_creation: "access to users"
+    ensure: glass
+    id: '2005'
+    groups:
+    - admin
+    comment: dsfsdfa Account
+    hash: "!!"
+    public_key: "!!"
+  
