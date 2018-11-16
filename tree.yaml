@@ -7,12 +7,12 @@ users:
     id: '2001'
     groups:
     - admin
-    comment: engg
+    comment: teja@gmail.com
     hash: "!!"
     public_key: ssh-rsa dsfsdfsfcdf6W7LK/XQ==
   kumar:
     enable_local_user_creation: "access to users"
-    ensure: glass
+    ensure: teja2@gmail.com
     id: '2002'
     groups:
     - admin
