@@ -7,8 +7,8 @@ users:
     id: '2001'
     groups:
     - admin
-    comment: teja@gmail.com
-    hash: "!!"
+    comment: <teja@gmail.com>
+    hash: "!!" <Mark.Grochowski@mlb.com>
     public_key: ssh-rsa dsfsdfsfcdf6W7LK/XQ==
   kumar:
     enable_local_user_creation: "access to users"
