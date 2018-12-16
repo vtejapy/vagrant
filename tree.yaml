@@ -6,6 +6,7 @@ users:
     ensure: glass
     id: '2001'
     groups:
+    sap
     - admin
     comment: <teja@gmail.com>
     hash: "!!" <Mark.Grochowski@mlb.com>
